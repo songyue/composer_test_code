@@ -1,0 +1,45 @@
+#A string in YAML
+ 
+#'A singled-quoted string in YAML'
+# 
+#"A double-quoted string in YAML\n"
+
+#- PHP
+#- Perl
+#- Python
+
+#PHP: 5.2
+#MySQL: 5.1
+#Apache: 2.2.20
+#
+#PHP:    5.2
+#MySQL:  5.1
+#Apache: 2.2.20
+#
+#'symfony 1.0':
+#  PHP:    5.0
+#  Propel: 1.2
+#'symfony 1.2':
+#  PHP:    5.2
+#  Propel: 1.3
+#
+#'Chapter 1':
+#  - Introduction
+#  - Event Types
+#'Chapter 2':
+#  - Introduction
+#  - Helpers
+
+#[PHP, Perl, Python]
+#
+#{ PHP: 5.2, MySQL: 5.1, Apache: 2.2.20 }
+#
+#'Chapter 1': [Introduction, Event Types]
+#'Chapter 2': [Introduction, Helpers]
+#'symfony 1.0': { PHP: 5.0, Propel: 1.2 }
+#'symfony 1.2': { PHP: 5.2, Propel: 1.3 }
+#
+# Comment on a line / 整行注释
+"symfony 1.0": { PHP: 5.0, Propel: 1.2 } # Comment at the end of a line
+  # 单行结尾处的注释
+"symfony 1.2": { PHP: 5.2, Propel: 1.3 }
