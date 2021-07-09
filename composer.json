@@ -4,6 +4,14 @@
         "symfony/finder": "^5.2",
         "symfony/expression-language": "^5.2",
         "symfony/yaml": "^5.2",
-        "ext-bcmath": "^7.3"
+        "ext-bcmath": "^7.3",
+        "guzzlehttp/guzzle": "~6.0",
+        "predis/predis": "^1.1",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     }
 }
